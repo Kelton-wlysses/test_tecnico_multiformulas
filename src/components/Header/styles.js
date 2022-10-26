@@ -34,14 +34,22 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
-    h2{
+    h2 {
+      padding: 0 8%;
       width: 830px;
       text-align: center;
-      font: var(--font-12);
+      font: var(--font-9);
       color: var(--color-grey-1);
 
       line-height: 140%;
       letter-spacing: -0.02em;
+
+      @media (min-width: 500px) {
+        font: var(--font-12);
+      }
+      @media (min-width: 800px) {
+        padding: 0;
+      }
     }
   }
 `;

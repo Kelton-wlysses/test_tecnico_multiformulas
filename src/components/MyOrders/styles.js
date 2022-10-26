@@ -8,8 +8,13 @@ export const Container = styled.div`
     height: 40px;
     background-color: var(--color-primary-blue);
     
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    @media (min-width: 520px) {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
     
     display: flex;
     align-items: center;
@@ -26,23 +31,30 @@ export const Container = styled.div`
   main{
     width: 100%;
 
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    @media (min-width: 520px) {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
     padding-top: 26px;
     
-
     background-color: var(--color-grey-0);
     display: flex;
     flex-direction: column;
     gap: 18px;
 
     h2{
+      width: 100%;
       font: var(--font-3);
       color: var(--color-grey-4);
       font-weight: 600;
     }
 
-    p{
+    h3{
+      width: 100%;
       font: var(--font-3);
       color: var(--color-grey-3);
     }

@@ -11,14 +11,18 @@ const ConfirmOrder = () => {
       </h2>
 
       <div className="select">
-        <input type="radio" id="Facebook" value="Facebook" />
-        <label for="Facebook">Facebook</label>
-
-        <input type="radio" id="Instagram" value="Instagram" />
-        <label for="Instagram">Instagram</label>
-
-        <input type="radio" id="Indicação" value="Indicação" />
-        <label for="Indicação">Indicação</label>
+        <div>
+          <input type="radio" id="Facebook" value="Facebook" />
+          <label for="Facebook">Facebook</label>
+        </div>
+        <div>
+          <input type="radio" id="Instagram" value="Instagram" />
+          <label for="Instagram">Instagram</label>
+        </div>
+        <div>
+          <input type="radio" id="Indicação" value="Indicação" />
+          <label for="Indicação">Indicação</label>
+        </div>
       </div>
 
       <button>

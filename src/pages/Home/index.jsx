@@ -6,7 +6,6 @@ import ConfirmOrder from "../../components/ConfirmOrder";
 import Footer from "../../components/Footer";
 
 const Home = () => {
-
   return (
     <Container>
       <Header />

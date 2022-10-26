@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 236px;
+  height: 260px;
 
   background-color: var(--color-primary-Focus);
-  padding-left: 20%;
-  padding-right: 20%;
+
+  padding-left: 5%;
+  padding-right: 5%;
+
+  @media (min-width: 520px) {
+      padding-left: 20%;
+      padding-right: 20%;
+  } 
 
   display: flex;
   flex-direction: column;
@@ -20,8 +26,20 @@ export const Container = styled.div`
   
   .select{
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    gap: 6px;
 
+    @media (min-width: 520px) {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      
+      div{
+        input{
+          margin-right: 10px;
+        }
+      }
+    }
   }
 
   button{
