@@ -28,6 +28,11 @@ export const Container = styled.div`
     width: 100%;
     height: 56px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+
     background-color: var(--color-primary-blue);
     border: none;
     border-radius: 5px;

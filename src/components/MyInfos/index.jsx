@@ -3,10 +3,7 @@ import { UserContext } from "../../context/UserContext";
 import { Container } from "./styles";
 
 const MyInfos = () => {
-
   const { user } = useContext(UserContext);
-
-  console.log(user)
 
   return (
     <Container>

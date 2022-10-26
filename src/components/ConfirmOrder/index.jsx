@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import { BsCheck2 } from "react-icons/bs"
 
 const ConfirmOrder = () => {
   return (
@@ -20,7 +21,10 @@ const ConfirmOrder = () => {
         <label for="Indicação">Indicação</label>
       </div>
 
-      <button>Confirmar Pedido</button>
+      <button>
+        <BsCheck2 size={20}/>
+        Confirmar Pedido
+      </button>
     </Container>
   );
 };

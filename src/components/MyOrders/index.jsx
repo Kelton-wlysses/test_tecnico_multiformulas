@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import CardProduct from "../CardProduct";
-import ConfirmOrder from "../ConfirmOrder";
 import TotalCart from "../TotalCart";
 import { Container } from "./styles";
 
